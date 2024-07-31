@@ -47,13 +47,13 @@ const EmployeeRecordFilter = ({ users, setFilterData }) => {
           <FontAwesomeIcon icon={faFilter} className={styles.filterIcon} />
         </button>
         <select className={styles.select} value={country} onChange={handleCountryChange}>
-          <option value="" disabled>Country</option>
+          <option value="" >Country</option>
           <option value="United States">United States</option>
           <option value="Canada">Canada</option>
           <option value="United Kingdom">United Kingdom</option>
         </select>
         <select className={styles.select} value={gender} onChange={handleGenderChange}>
-          <option value="" disabled>Gender</option>
+          <option value="" >Gender</option>
           <option value="male">Male</option>
           <option value="female">Female</option>
           <option value="other">Other</option>
